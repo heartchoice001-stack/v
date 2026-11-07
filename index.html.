@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PLC Glass Widget</title>
+
+<style>
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.glass-widget {
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.25);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.status {
+    color: #00ff99;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="glass-widget">
+    <h2>PLC AUTOMATION</h2>
+    <p>Mitsubishi FX3G</p>
+    <div class="status">● SYSTEM ONLINE</div>
+</div>
+
+</body>
+</html>
